@@ -1,0 +1,22 @@
+{
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    },
+    "editor.snippetSuggestions": "top",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false
+  },
+  "markdown-preview-enhanced.mathJaxConfig": {
+    "TeX": {
+      "extensions": ["AMSmath.js", "AMSsymbols.js"]
+    }
+  },
+  "markdown-preview-enhanced.previewTheme": "github-light.css",
+  "markdown-preview-enhanced.revealjsTheme": "black.css",
+  "markdown-all-in-one.toc.levels": "1..6",
+  "markdown-all-in-one.toc.slugifyMode": "github"
+}
