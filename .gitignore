@@ -15,3 +15,7 @@
 *.bc
 *.ti
 *.tsc
+
+# WPIA_document/images/ のPNGとPDFは管理対象にする
+!/WPIA_document/images/*.png
+!/WPIA_document/images/*.pdf

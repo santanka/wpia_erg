@@ -18,5 +18,5 @@
   "markdown-preview-enhanced.previewTheme": "github-light.css",
   "markdown-preview-enhanced.revealjsTheme": "black.css",
   "markdown-all-in-one.toc.levels": "1..6",
-  "markdown-all-in-one.toc.slugifyMode": "github"
+  "markdown-all-in-one.toc.slugifyMode": "github",
 }

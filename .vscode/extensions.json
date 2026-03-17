@@ -4,6 +4,6 @@
     "shd101wyy.markdown-preview-enhanced",
     "davidanson.vscode-markdownlint",
     "marp-team.marp-vscode",
-    "mhutchie.git-graph"
+    "mhutchie.git-graph",
   ]
 }
