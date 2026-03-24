@@ -1312,7 +1312,7 @@ $$
 $$
 W_{\mathrm{Eint}} \left( E, \alpha, t \right) \, [\mathrm{keV} \, \mathrm{m}^{-3} \, \mathrm{s}^{-1}] = - \frac{10^{-2}}{\tau \, [\mathrm{s}]} \frac{q}{e} \frac{\Delta E}{E} \Delta \alpha \sum_{\zeta} \left\{ \Delta \zeta \sin \zeta \left( \sum_{i} w_{i} \right)^{-1} \left( \sum_{i} \frac{\delta E_{\perp i} \, [\mathrm{mV} \, \mathrm{m}^{-1}] \, C_{i} w_{i}}{G \, [\mathrm{cm}^{2} \, \mathrm{str} \, \mathrm{keV} \, \mathrm{keV}^{-1}]} \sin^{2} \alpha_{i} \right) \right\}. \tag{9}
 $$
-ここで、$R$は粒子カウントレートであり、$w$は式(8)で与えられるような粒子カウント数を $\zeta$ビンに分配する際の重みであり、$\sum_{i} w_{i}$はoccurenceになる。対象時間内で得られたoccurenceで割ることで、時間平均の意味を持たせる。同様にして、EMICの周波数変化を評価するための $W_{\mathrm{Bint}}$は以下のように計算される。
+ここで、$R$は粒子カウントレートであり、$w$は式(8)で与えられるような粒子カウント数を $\zeta$ビンに分配する際の重みであり、$\sum_{i} w_{i}$はoccurenceになる。なお、$\Delta T$の間は、粒子の分布 ($E$, $\alpha$, $\zeta$)は不変であるという仮定の下での計算であることに注意。対象時間内で得られたoccurenceで割ることで、時間平均の意味を持たせる。同様にして、EMICの周波数変化を評価するための $W_{\mathrm{Bint}}$は以下のように計算される。
 $$
 W_{\mathrm{Bint}} \, [\mathrm{J} \, \mathrm{m}^{-4}] = \frac{1}{\Delta T} \int^{t + \Delta T / 2}_{t - \Delta T / 2} \mathrm{d}t' \iiint_{\mathbf{\Omega}} \mathrm{d}^{3} \mathbf{v} \left( q \, \delta \mathbf{B}_{\perp} \cdot \mathbf{v} \right) \, f \left( \mathbf{v}, t' \right),
 $$
